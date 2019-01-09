@@ -1,0 +1,12 @@
+[Mon, 07 Jan 2019 00:24:09][MainThread:4550809024][task_id:tensorflow][tf_logging.py:125][WARNING][From /Users/ray/Code/python/DDS/venv/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/preprocessing/text.py:203: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.]
+[Mon, 07 Jan 2019 00:24:09][MainThread:4550809024][task_id:root][logger.py:124][INFO][
+Evaluating...
+]
+[Mon, 07 Jan 2019 00:24:09][MainThread:4550809024][task_id:tensorflow][tf_logging.py:115][INFO][Restoring parameters from /Users/ray/Code/python/DDS/core/nlp_engine_cnn/models/landslipPred-1000]
+ensorflow/transform or tf.data.
+
+Evaluating...
+
+Restoring parameters from /Users/ray/Code/python/DDS/core/nlp_engine_cnn/models/landslipPred-1000

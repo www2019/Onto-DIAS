@@ -1,0 +1,16 @@
+database:
+  stardog:
+    host: localhost
+    port: 5820
+    db: landslip
+  mysql:
+    host: localhost
+    port: 3306
+    username: root
+    password: Root@2018
+  mongodb:
+    host: localhost
+    port: 27017
+  hdfs:
+    namenode: ip-172-31-16-144
+    port: 50000

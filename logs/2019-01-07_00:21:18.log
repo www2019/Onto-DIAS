@@ -1,0 +1,40 @@
+[Mon, 07 Jan 2019 00:21:18][MainThread:4648957376][task_id:tensorflow][tf_logging.py:125][WARNING][From /Users/ray/Code/python/DDS/core/nlp_engine_cnn/train.py:139: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.]
+[Mon, 07 Jan 2019 00:21:18][MainThread:4648957376][task_id:tensorflow][tf_logging.py:125][WARNING][From /Users/ray/Code/python/DDS/venv/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.]
+[Mon, 07 Jan 2019 00:21:18][MainThread:4648957376][task_id:tensorflow][tf_logging.py:125][WARNING][From /Users/ray/Code/python/DDS/venv/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.]
+[Mon, 07 Jan 2019 00:21:18][MainThread:4648957376][task_id:tensorflow][tf_logging.py:125][WARNING][From /Users/ray/Code/python/DDS/core/nlp_engine_cnn/text_cnn.py:100: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name embedding/W:0/grad/hist is illegal; using embedding/W_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name embedding/W:0/grad/sparsity is illegal; using embedding/W_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-3/W:0/grad/hist is illegal; using conv-maxpool-3/W_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-3/W:0/grad/sparsity is illegal; using conv-maxpool-3/W_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-3/b:0/grad/hist is illegal; using conv-maxpool-3/b_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-3/b:0/grad/sparsity is illegal; using conv-maxpool-3/b_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-4/W:0/grad/hist is illegal; using conv-maxpool-4/W_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-4/W:0/grad/sparsity is illegal; using conv-maxpool-4/W_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-4/b:0/grad/hist is illegal; using conv-maxpool-4/b_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-4/b:0/grad/sparsity is illegal; using conv-maxpool-4/b_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-5/W:0/grad/hist is illegal; using conv-maxpool-5/W_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-5/W:0/grad/sparsity is illegal; using conv-maxpool-5/W_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-5/b:0/grad/hist is illegal; using conv-maxpool-5/b_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-5/b:0/grad/sparsity is illegal; using conv-maxpool-5/b_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-6/W:0/grad/hist is illegal; using conv-maxpool-6/W_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-6/W:0/grad/sparsity is illegal; using conv-maxpool-6/W_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-6/b:0/grad/hist is illegal; using conv-maxpool-6/b_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name conv-maxpool-6/b:0/grad/sparsity is illegal; using conv-maxpool-6/b_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name W:0/grad/hist is illegal; using W_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name W:0/grad/sparsity is illegal; using W_0/grad/sparsity instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name output/b:0/grad/hist is illegal; using output/b_0/grad/hist instead.]
+[Mon, 07 Jan 2019 00:21:19][MainThread:4648957376][task_id:tensorflow][tf_logging.py:115][INFO][Summary name output/b:0/grad/sparsity is illegal; using output/b_0/grad/sparsity instead.]
+Summary name output/b:0/grad/sparsity is illegal; using output/b_0/grad/sparsity instead.
